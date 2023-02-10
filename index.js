@@ -1,6 +1,6 @@
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
-    ${".g-signin2").css("display","none");
+    $(".g-signin2").css("display","none");
     $(".data").css("display","block");
     console.lod(profile);
     console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
